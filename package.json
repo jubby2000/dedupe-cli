@@ -1,0 +1,17 @@
+{
+  "name": "dedupe-cli",
+  "version": "1.0.0",
+  "description": "Takes a standard formatted JSON object and deduplicates by email, by id, and prioritizes latest date. If dates are identical, it will preserve the latter object.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Barlow",
+  "license": "MIT",
+  "bin": {
+    "dedupe": "./bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^3.0.2"
+  }
+}
